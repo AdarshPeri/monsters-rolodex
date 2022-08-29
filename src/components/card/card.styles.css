@@ -10,8 +10,25 @@
   backface-visibility: hidden;
   transform: translateZ(0);
   transition: transform 0.25s ease-out;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
 }
 
 .card-container:hover {
   transform: scale(1.05);
 }
+
+@media only screen and (max-width: 600px) {
+  .card-container {
+    padding: 15px;
+  }
+  img {
+    height: auto;
+    width: 50%;
+  }
+  .para {
+    font-size: 0.7rem;
+  }
+}
+

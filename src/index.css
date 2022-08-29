@@ -11,6 +11,7 @@ body {
     rgba(7, 27, 82, 1) 0%,
     rgba(0, 128, 128, 1) 100%
   );
+  overflow-x: hidden;
 }
 
 code {
